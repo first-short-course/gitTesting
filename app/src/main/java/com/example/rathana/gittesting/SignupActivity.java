@@ -9,5 +9,14 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        switch (1) {
+            case 0:
+                break;
+            case 1:
+                break;
+            default:
+                break;
+        }
     }
 }
