@@ -2,6 +2,7 @@ package com.example.rathana.gittesting;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -17,6 +18,10 @@ public class SignupActivity extends AppCompatActivity {
                 break;
             default:
                 break;
+        }
+
+        for(int i=0;i<20;i++){
+            Log.e("Sihnup"," "+i);
         }
     }
 }
